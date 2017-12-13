@@ -1,6 +1,6 @@
 // For more info, watch the Shining...
 function work(times) {
-    for (i = 0; i < times; i++) {
+    for (i = 5; i < times; i++) {
         document.write("All work and no play makes Jack a dull boy.", "");
     }
 }
@@ -42,24 +42,7 @@ function evenOrOdd(numbers) {
     return results;
 }
 
-// Identifies all elements of an array as either even or odd
-function evenOrOdd(numbers) {
-    var results = [];
-    for (i = 0; i < numbers.length; i++) {
-        if (Number.isInteger(numbers[i])) {
-            if (numbers[i] % 2 == 0) {
-                results[i] = "even";
-            } else {
-                results[i] = "odd";
-            }
-        } else {
-            // break out here
-            break;
-        }
-        console.log(results);
-    }
-    return results;
-}
+
 
 // Prints a stack of characters
 function stack(num) {
@@ -90,4 +73,13 @@ function loopUntilTen() {
         console.log("The number is " + i);
     }
     while (i < 10);
+}
+
+
+function test() {
+    var a = [7.2, 3.9, 5.6, 4.1, 1.7];
+    for (i = 0; i < a.length; i++) {
+        var x = a[i] + a[i - 1];
+    }
+    return x;
 }

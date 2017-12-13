@@ -8,5 +8,5 @@ function shuffleArray(array) {
         array[i] = array[x];
         array[x] = temp;
     }
-    return array[x];
+    return array;
 }

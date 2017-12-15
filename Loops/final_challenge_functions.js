@@ -12,3 +12,10 @@ function shuffleArray(array) {
     // return new array after the loop exits at i=0.
     return array;
 }
+
+
+function factorTree(number) {
+
+    for (i = )
+
+}
